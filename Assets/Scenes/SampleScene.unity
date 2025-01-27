@@ -1153,8 +1153,10 @@ GameObject:
   m_Component:
   - component: {fileID: 292337884}
   - component: {fileID: 292337883}
+  - component: {fileID: 292337886}
   - component: {fileID: 292337882}
   - component: {fileID: 292337885}
+  - component: {fileID: 292337887}
   m_Layer: 0
   m_Name: Rupee
   m_TagString: Untagged
@@ -1296,6 +1298,31 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &292337886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292337881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4809892a0ce8524e880e7a3abc1a5dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &292337887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292337881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20a6e36fa95f3af47894a21c9714851b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 9
 --- !u!1001 &303588372
 PrefabInstance:
   m_ObjectHideFlags: 0
