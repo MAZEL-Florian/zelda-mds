@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1624174392987392709}
   - component: {fileID: 3367791428687971542}
   - component: {fileID: 5697104058792090721}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Rupee
   m_TagString: Untagged
   m_Icon: {fileID: 0}
