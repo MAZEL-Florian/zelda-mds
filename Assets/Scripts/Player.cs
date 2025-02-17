@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
     private Rigidbody2D _rigidbody2D;
     public float moveSpeed = 15f;
     private Animator _animator;
+
     private void Awake()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
@@ -16,7 +17,6 @@ public class Player : MonoBehaviour
         Debug.Log("Start player");
     }
 
-    // Update is called once per frame
     void Update()
     {
         float horizontal = Input.GetAxisRaw("Horizontal");
